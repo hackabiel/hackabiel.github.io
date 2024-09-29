@@ -2,6 +2,8 @@
 layout: null
 ---
 
+<link rel="icon" href="https://raw.githubusercontent.com/hackabiel/hackabiel.github.io/main/favicon.ico" type="image/x-icon">
+
 <style>
 body {
     background-color: #FFFFFF; 
@@ -85,6 +87,16 @@ footer {
     color: #000000;
 }
 
+
+.parallax {
+    background: url('https://raw.githubusercontent.com/hackabiel/hackabiel.github.io/main/hackabiel-logo-long.png') no-repeat center;
+    background-size: contain;
+    height: 500px; 
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+}
+
 @media screen and (max-width: 600px) {
     body {
         padding: 15px;
@@ -97,7 +109,7 @@ footer {
 </style>
 
 
-# HackaBiel 
+<div class="parallax"></div>
 
 > "Hack the future in the heart of Switzerland"
 
@@ -149,11 +161,11 @@ Want to be part of HackaBiel? Tell us about you!
 
 **Contact / Follow us:**
 
-> [Telegram Group](https://t.me/+e9WdKVLbs2cyNGI0)
+> [Telegram Group](https://t.me/+M_XL-97piww0M2Q0)
 > [GitHub](https://github.com/hackabiel)
 > [info@hackabiel.com](mailto:info@hackabiel.org)
 
 
-© 2024 HackaBiel  
+© 2024 hackabiel  
 
 Biel/Bienne, Switzerland | Est. 2024  
