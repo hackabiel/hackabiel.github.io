@@ -91,8 +91,8 @@ footer {
 .parallax {
     background: url('https://raw.githubusercontent.com/hackabiel/hackabiel.github.io/main/hackabiel-logo-long.png') no-repeat center;
     background-size: contain;
-    height: 500px; 
-    width: 100%;
+    height: 50px; 
+    width: 50%;
     position: relative;
     background-attachment: fixed;
 }
@@ -161,11 +161,9 @@ Want to be part of HackaBiel? Tell us about you!
 
 **Contact / Follow us:**
 
-> [Telegram Group](https://t.me/+M_XL-97piww0M2Q0)
-> [GitHub](https://github.com/hackabiel)
-> [info@hackabiel.com](mailto:info@hackabiel.org)
+[Telegram Group](https://t.me/+M_XL-97piww0M2Q0)  
+[GitHub](https://github.com/hackabiel)  
+[info@hackabiel.com](mailto:info@hackabiel.org)
 
 
-© 2024 hackabiel  
-
-Biel/Bienne, Switzerland | Est. 2024  
+© 2024 hackabiel  Biel/Bienne, Switzerland | Est. 2024  
