@@ -124,7 +124,7 @@ footer {
 }
 </style>  
 
-> "Hack the future in the heart of Switzerland"
+# "Hack the future in the heart of Switzerland"
 
 
 **A community-run group of indie entrepreneurs, makers, coders, designers, and hardware hackers who build their own independent services, apps and startups, meeting up every Friday for weekly co-working (and demos) in Biel/Bienne.**
@@ -134,7 +134,7 @@ The group is part of the [Hackagu Network](https://hackagu.com) with a growing c
 If you're working on your own projects, come and join us every Thursday from **9:15 am** at [P15 Coworking-Space](https://www.p15.space) in **Biel/Bienne**. Price for a day 22 CHF incl. Coffee. We speak 🇩🇪, 🇫🇷, 𝗘𝗡.  
 
 
-**AGENDA:**
+**AGENDA**
 
 - **9:30 am – Intros** (a little about yourself and what you're working on)
 - **12:30 pm – Lunch together** (if you want)
@@ -165,14 +165,14 @@ Want to be part of HackaBiel? Tell us about you!
     <label for="project">Brief Project Description:</label>
     <textarea id="project" name="project" rows="4" required></textarea>
 
-    <button type="submit">Say Bonjour</button>
+    <button type="submit">SAY BONJOUR</button>
 </form>
 
 *Note: Your data will be treated confidentially and only used for processing your invitation.*
 
 
 
-**CONTACT / FOLLOW US:**
+**CONTACT / FOLLOW US**
 
 [Telegram Group](https://t.me/+M_XL-97piww0M2Q0)  
 [GitHub](https://github.com/hackabiel)  
