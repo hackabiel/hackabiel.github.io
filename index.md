@@ -8,7 +8,9 @@ layout: null
 
 <style>
 body {
-    background-color: #FFFFFF; 
+   background: linear-gradient(90deg, #FFFFFF, #FFCCCC 50%, #FFFFFF); 
+    background-size: 200% 200%;
+    animation: subtle-gradient 12s ease infinite;
     color: #000000; 
     font-family: Arial, sans-serif; 
     text-align: left;
@@ -90,7 +92,7 @@ footer {
 }
 
 
-@keyframes gradient {
+@keyframes subtle-gradient {
     0% {
         background-position: 0% 50%;
     }
@@ -101,7 +103,7 @@ footer {
         background-position: 0% 50%;
     }
 }
-
+    
 body {
     background: linear-gradient(270deg, #00FF00, #0000FF, #FF00FF);
     background-size: 600% 600%;
@@ -122,13 +124,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 80%; 
-    height: auto;
+    height: 75%;
 }
 }
-</style>
-
-
-<div class="parallax"></div>
+</style>  
 
 > "Hack the future in the heart of Switzerland"
 
