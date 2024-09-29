@@ -3,10 +3,9 @@ layout: null
 ---
 
 <style>
-/* Dein vorhandenes CSS */
-    body {
+body {
     background-color: #000000; /* Schwarzer Hintergrund */
-    color: #00FF00; /* Grüne Schrift */
+    color: #FFFFFF; /* Weiße Schrift */
     font-family: "Courier New", Courier, monospace; /* Monospace-Schriftart */
     text-align: center;
     padding: 50px;
@@ -20,12 +19,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-hr {
-    border: none;
-    border-top: 1px solid #00FF00; /* Grüne horizontale Linie */
-    margin: 20px 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -44,13 +37,14 @@ input, textarea {
     margin: 5px 0;
     font-family: "Courier New", Courier, monospace;
     background-color: #222222; /* Dunkler Hintergrund für Eingabefelder */
-    color: #00FF00;
+    color: #FFFFFF;
     border: 1px solid #00FF00;
 }
 
 button {
     background-color: #00FF00;
     color: #000000;
+    font-weight: bold; /* Fett geschrieben */
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -81,15 +75,29 @@ footer {
     color: #00FF00;
 }
 
-@keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 0; }
-    100% { opacity: 1; }
-}
-
 .cursor {
     font-weight: bold;
     animation: blink 1s infinite;
+}
+
+/* Entfernen von horizontalen Linien */
+hr {
+    display: none;
+}
+
+/* Zentrieren des Ort-Textes */
+.intro-text {
+    text-align: center;
+}
+
+/* Ablauf-Zeiten linksbündig, aber Abschnitt zentriert */
+.schedule {
+    text-align: center;
+}
+
+.schedule-time {
+    text-align: left;
+    display: inline-block;
 }
 
 @media screen and (max-width: 600px) {
@@ -103,43 +111,35 @@ footer {
 }
 </style>
 
-# 🏄🏔️⌚ HackaBiel 💻🚀 🇨🇭 ⚒
+# 🏄🏞️⌚ HackaBiel 💻🚀 ⚒
 
 *Biel/Bienne, Switzerland | Est. 2024*
 
 ---
-A community-run group of indie makers, coders, designers, and hardware hackers who build their own independent apps and startups, meeting up every Thursday for weekly co-working (and demos) in Biel/Bienne.
+A community-run group of indie entrepreneurs, makers, coders, designers, and hardware hackers who build their own independent services, apps and startups, meeting up every Friday for weekly co-working (and demos) in Biel/Bienne.
 
 The group is part of the [Hackagu Network](https://hackagu.com) with a growing community worldwide.
 
-If you're working on your own projects, come and join us every Thursday from **9:15 am** at a co-working space in **Biel/Bienne**. Exact location is still to be determined.
+If you're working on your own projects, come and join us every Thursday from **9:15 am** at P15 co-working space in **Biel/Bienne**. Price for a day 22 CHF incl. Coffee. We speak 🇩🇪, 🇫🇷, 𝗘𝗡╸.
 
 **The timings are:**
 
 - **9:30 am – Intros** (a little about yourself and what you're working on)
 - **12:30 pm – Lunch together** (if you want)
 - **4:00 pm – Demos** (share what you made today, or just watch)
-- **5:00 pm – Drinks and chatting** somewhere nearby 🍻🍷
+- **5:00 pm – Drinks and chatting** 
 
 Please fill out the form and we'll send you the details!
 
----
 
-
-
-
-
----
 
 > "Hack the future in the heart of Switzerland."
 
-![HackaBiel Logo](https://raw.githubusercontent.com/hackabiel/hackabiel.github.io/main/logo.png)
 
----
 
 ### Sign Up for the Event/Group
 
-Want to be part of HackaBiel? Sign up now!
+Want to be part of HackaBiel? Tell us about you!
 
 <form action="https://formsubmit.co/info@hackabiel.com" method="POST">
     <!-- Anti-Spam Fields -->
@@ -161,11 +161,10 @@ Want to be part of HackaBiel? Sign up now!
 
 *Note: Your data will be treated confidentially and only used for processing your registration.*
 
----
 
 ### Contact / Follow us:
 
-- [Telegram Group](https://t.me/hackabiel)
+- [Telegram Group]((https://t.me/+e9WdKVLbs2cyNGI0))
 - [GitHub](https://github.com/hackabiel)
 - [info@hackabiel.com](mailto:info@hackabiel.com)
 
