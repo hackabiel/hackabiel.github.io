@@ -32,7 +32,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
     color: #FF0000;
     margin-bottom: 10px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Helvetia', serif;
     font-weight: bold;
 }
 
