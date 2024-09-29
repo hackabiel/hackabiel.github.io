@@ -80,25 +80,6 @@ footer {
     animation: blink 1s infinite;
 }
 
-/* Entfernen von horizontalen Linien */
-hr {
-    display: none;
-}
-
-/* Zentrieren des Ort-Textes */
-.intro-text {
-    text-align: center;
-}
-
-/* Ablauf-Zeiten linksbündig, aber Abschnitt zentriert */
-.schedule {
-    text-align: center;
-}
-
-.schedule-time {
-    text-align: left;
-    display: inline-block;
-}
 
 @media screen and (max-width: 600px) {
     body {
@@ -115,32 +96,34 @@ hr {
 
 > "Hack the future in the heart of Switzerland"
 
-Biel/Bienne, Switzerland | Est. 2024
 
----
-A community-run group of indie entrepreneurs, makers, coders, designers, and hardware hackers who build their own independent services, apps and startups, meeting up every Friday for weekly co-working (and demos) in Biel/Bienne.
+Biel/Bienne, Switzerland | Est. 2024  
+
+
+**A community-run group of indie entrepreneurs, makers, coders, designers, and hardware hackers who build their own independent services, apps and startups, meeting up every Friday for weekly co-working (and demos) in Biel/Bienne.**
 
 The group is part of the [Hackagu Network](https://hackagu.com) with a growing community worldwide.
 
-If you're working on your own projects, come and join us every Thursday from **9:15 am** at P15 co-working space in **Biel/Bienne**. Price for a day 22 CHF incl. Coffee. We speak 🇩🇪, 🇫🇷, 𝗘𝗡╸.
+If you're working on your own projects, come and join us every Thursday from **9:15 am** at [P15 Coworking-Space](https://www.p15.space) in **Biel/Bienne**. Price for a day 22 CHF incl. Coffee. We speak 🇩🇪, 🇫🇷, 𝗘𝗡╸.  
+
 
 **The timings are:**
 
-- **9:30 am – Intros** (a little about yourself and what you're working on)
-- **12:30 pm – Lunch together** (if you want)
-- **4:00 pm – Demos** (share what you made today, or just watch)
-- **5:00 pm – Drinks and chatting** 
+**9:30 am – Intros** (a little about yourself and what you're working on)
+**12:30 pm – Lunch together** (if you want)
+**4:00 pm – Demos** (share what you made today, or just watch)
+**5:00 pm – Drinks and chatting** 
 
-Please fill out the form and we'll send you the details!
+Please fill out the form and we'll send you the details!  
+
 
 
 **Sign Up for the Event/Group**
 
 Want to be part of HackaBiel? Tell us about you!
-<form action="https://formsubmit.co/info@hackabiel.com" method="POST">
+<form action="https://formsubmit.co/info@hackabiel.org" method="POST">
     <!-- Anti-Spam Fields -->
     <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_next" value="https://hackabiel.com/thankyou.html">
 
     <!-- Form Fields -->
     <label for="name">Name:</label>
@@ -152,18 +135,18 @@ Want to be part of HackaBiel? Tell us about you!
     <label for="project">Brief Project Description:</label>
     <textarea id="project" name="project" rows="4" required></textarea>
 
-    <button type="submit">Sign Up</button>
+    <button type="submit">Say Bonjour</button>
 </form>
 
-*Note: Your data will be treated confidentially and only used for processing your registration.*
+*Note: Your data will be treated confidentially and only used for processing your invitation.*
 
 
 
 **Contact / Follow us:**
 
-[Telegram Group](https://t.me/+e9WdKVLbs2cyNGI0)
-[GitHub](https://github.com/hackabiel)
-[info@hackabiel.com](mailto:info@hackabiel.com)
+> [Telegram Group](https://t.me/+e9WdKVLbs2cyNGI0)
+> [GitHub](https://github.com/hackabiel)
+> [info@hackabiel.com](mailto:info@hackabiel.org)
 
 
 *© 2024 HackaBiel*
