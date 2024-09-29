@@ -113,7 +113,9 @@ hr {
 
 # 🏄🏞️⌚ HackaBiel 💻🚀 ⚒
 
-*Biel/Bienne, Switzerland | Est. 2024*
+> "Hack the future in the heart of Switzerland"
+
+**Biel/Bienne, Switzerland | Est. 2024**
 
 ---
 A community-run group of indie entrepreneurs, makers, coders, designers, and hardware hackers who build their own independent services, apps and startups, meeting up every Friday for weekly co-working (and demos) in Biel/Bienne.
@@ -132,12 +134,7 @@ If you're working on your own projects, come and join us every Thursday from **9
 Please fill out the form and we'll send you the details!
 
 
-
-> "Hack the future in the heart of Switzerland."
-
-
-
-### Sign Up for the Event/Group
+\_Sign Up for the Event/Group\_  
 
 Want to be part of HackaBiel? Tell us about you!
 
@@ -162,12 +159,11 @@ Want to be part of HackaBiel? Tell us about you!
 *Note: Your data will be treated confidentially and only used for processing your registration.*
 
 
-### Contact / Follow us:
+**Contact / Follow us:**
 
-- [Telegram Group]((https://t.me/+e9WdKVLbs2cyNGI0))
+- [Telegram Group](https://t.me/+e9WdKVLbs2cyNGI0)
 - [GitHub](https://github.com/hackabiel)
 - [info@hackabiel.com](mailto:info@hackabiel.com)
 
----
 
 *© 2024 HackaBiel*
