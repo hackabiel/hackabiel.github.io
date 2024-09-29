@@ -3,6 +3,8 @@ layout: null
 ---
 
 <link rel="icon" href="https://raw.githubusercontent.com/hackabiel/hackabiel.github.io/main/favicon.ico" type="image/x-icon">
+![HackaBiel Logo](https://raw.githubusercontent.com/hackabiel/hackabiel.github.io/main/hackabiel-logo-long.png)
+
 
 <style>
 body {
@@ -88,13 +90,22 @@ footer {
 }
 
 
-.parallax {
-    background: url('https://raw.githubusercontent.com/hackabiel/hackabiel.github.io/main/hackabiel-logo-long.png') no-repeat center;
-    background-size: contain;
-    height: 50px; 
-    width: 50%;
-    position: relative;
-    background-attachment: fixed;
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    background: linear-gradient(270deg, #00FF00, #0000FF, #FF00FF);
+    background-size: 600% 600%;
+    animation: gradient 10s ease infinite;
 }
 
 @media screen and (max-width: 600px) {
@@ -105,6 +116,14 @@ footer {
     input, textarea {
         width: 100%;
     }
+
+ img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%; 
+    height: auto;
+}
 }
 </style>
 
@@ -121,7 +140,7 @@ The group is part of the [Hackagu Network](https://hackagu.com) with a growing c
 If you're working on your own projects, come and join us every Thursday from **9:15 am** at [P15 Coworking-Space](https://www.p15.space) in **Biel/Bienne**. Price for a day 22 CHF incl. Coffee. We speak 🇩🇪, 🇫🇷, 𝗘𝗡.  
 
 
-**The timings are:**
+**AGENDA:**
 
 - **9:30 am – Intros** (a little about yourself and what you're working on)
 - **12:30 pm – Lunch together** (if you want)
@@ -134,7 +153,7 @@ Please fill out the form and we'll send you the details!
 
 
 
-**Sign Up for the Event/Group**
+**SIGN UP**
 
 Want to be part of HackaBiel? Tell us about you!
 <form action="https://formsubmit.co/info@hackabiel.org" method="POST">
@@ -159,7 +178,7 @@ Want to be part of HackaBiel? Tell us about you!
 
 
 
-**Contact / Follow us:**
+**CONTACT / FOLLOW US:**
 
 [Telegram Group](https://t.me/+M_XL-97piww0M2Q0)  
 [GitHub](https://github.com/hackabiel)  
