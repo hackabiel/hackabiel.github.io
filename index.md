@@ -82,7 +82,7 @@ blockquote {
     padding-left: 10px;
     color: #000000;
     font-style: italic;
-    font-family: 'Merriweather', serif;
+    font-family: 'Helvetica', serif;
 }
 
 footer {
@@ -102,12 +102,7 @@ footer {
     100% {
         background-position: 0% 50%;
     }
-}
-    
-body {
-    background: linear-gradient(270deg, #00FF00, #0000FF, #FF00FF);
-    background-size: 600% 600%;
-    animation: gradient 10s ease infinite;
+
 }
 
 @media screen and (max-width: 600px) {
@@ -124,7 +119,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 80%; 
-    height: 75%;
+    max-height: 75%;
 }
 }
 </style>  
