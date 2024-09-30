@@ -12,7 +12,7 @@ body {
     background-size: 200% 200%;
     animation: subtle-gradient 12s ease infinite;
     color: #000000; 
-    font-family: Arial, sans-serif; 
+    font-family: Lato, Regular 400; 
     text-align: left;
     padding: 20px;
     margin: 0;
@@ -32,7 +32,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
     color: #FF0000;
     margin-bottom: 10px;
-    font-family: 'Helvetia', serif;
+    font-family: Montserrat, SemiBold 600;
     font-weight: bold;
 }
 
