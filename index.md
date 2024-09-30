@@ -3,7 +3,7 @@ layout: null
 ---
 
 <link rel="icon" href="https://raw.githubusercontent.com/hackabiel/hackabiel.github.io/main/favicon.ico" type="image/x-icon">
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nova+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Work+Sans:wght@400&display=swap" rel="stylesheet">
 
 ![HackaBiel Logo](https://raw.githubusercontent.com/hackabiel/hackabiel.github.io/main/hackabiel-logo-long.png)
 
@@ -15,7 +15,7 @@ body {
     background-size: 200% 200%;
     animation: subtle-gradient 12s ease infinite;
     color: #000000; 
-    font-family: 'Nova Mono', monospace; 
+    font-family: 'Work Sans', sans-serif;  /* Fließtext mit Work Sans */
     text-align: left;
     padding: 20px;
     margin: 0;
@@ -25,8 +25,8 @@ body {
 a {
     color: #FF0000; 
     text-decoration: none;
-    font-family: 'Bebas Neue', sans-serif; 
-    font-weight: 600; 
+    font-family: 'Montserrat', sans-serif; /* Links in Montserrat */
+    font-weight: 600; /* Fett für Links */
 }
 
 a:hover {
@@ -36,14 +36,14 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
     color: #FF0000;
     margin-bottom: 10px;
-    font-family: 'Bebas Neue', sans-serif; 
-    font-weight: 600; 
+    font-family: 'Montserrat', sans-serif; /* Überschriften in Montserrat */
+    font-weight: 600; /* SemiBold */
 }
 
 label {
     display: block;
     margin-top: 15px;
-    font-family: 'Nova Mono', monospace; 
+    font-family: 'Work Sans', sans-serif; /* Formularbeschriftungen in Work Sans */
     font-weight: bold;
     color: #000000;
 }
@@ -52,7 +52,7 @@ input, textarea {
     width: 90%;
     padding: 10px;
     margin: 10px 0;
-    font-family: 'Nova Mono', monospace; 
+    font-family: 'Work Sans', sans-serif; /* Eingabefelder in Work Sans */
     background-color: #F0F0F0; 
     color: #000000;
     border: 1px solid #FF0000;
@@ -62,8 +62,8 @@ input, textarea {
 button {
     background-color: #FF0000;
     color: #FFFFFF;
-    font-family: 'Bebas Neue', sans-serif; 
-    font-weight: 600; 
+    font-family: 'Montserrat', sans-serif; /* Buttons in Montserrat */
+    font-weight: 600; /* Fett für Buttons */
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -87,14 +87,14 @@ blockquote {
     padding-left: 10px;
     color: #000000;
     font-style: italic;
-    font-family: 'Nova Mono', monospace; 
+    font-family: 'Work Sans', sans-serif; /* Zitate in Work Sans */
 }
 
 footer {
     margin-top: 50px;
     font-size: 0.8em;
     color: #000000;
-    font-family: 'Nova Mono', monospace; 
+    font-family: 'Work Sans', sans-serif; /* Fußzeile in Work Sans */
 }
 
 @keyframes subtle-gradient {
@@ -127,6 +127,7 @@ footer {
     }
 }
 </style>
+
 
 # Hack the future in the heart of Switzerland
 
