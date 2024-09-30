@@ -1,4 +1,5 @@
-ayout: null
+---
+layout: null
 ---
 
 <link rel="icon" href="https://raw.githubusercontent.com/hackabiel/hackabiel.github.io/main/favicon.ico" type="image/x-icon">
@@ -130,7 +131,7 @@ footer {
 
 
 
-"Hack the future in the heart of Switzerland"
+ # Hack the future in the heart of Switzerland
 
 # 🤙 Thank You!
 
