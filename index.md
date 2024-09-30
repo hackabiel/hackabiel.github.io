@@ -156,19 +156,6 @@ Please fill out the form and we'll send you the details!
 
 Want to be part of HackaBiel? Tell us about you!
 
-form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="[https://formspree.io/f/{form_id}](https://formspree.io/f/xanwrlwv)" method="post">
-<input type="hidden" name="_next" value="https://hackabiel.github.io/thankyou">
-  <fieldset id="fs-frm-inputs">
-    <label for="full-name">Name</label>
-    <input type="text" name="name" id="full-name" required="">
-    <label for="email-address">Email Address</label>
-    <input type="email" name="_replyto" id="email-address"  required="">
-    <label for="message">Brief Project Description</label>
-    <textarea rows="5" name="Brief Project Description" id="message" placeholder="" required=""></textarea>
-    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-  </fieldset>
-  <input type="submit" value="SAY BONJOUR">
-</form>
 
 <form action="https://formsubmit.co/info@hackabiel.org" method="POST">
     <!-- Anti-Spam Fields -->
