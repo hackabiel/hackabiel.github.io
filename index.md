@@ -3,9 +3,10 @@ layout: null
 ---
 
 <link rel="icon" href="https://raw.githubusercontent.com/hackabiel/hackabiel.github.io/main/favicon.ico" type="image/x-icon">
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nova+Mono&display=swap" rel="stylesheet">
 
 ![HackaBiel Logo](https://raw.githubusercontent.com/hackabiel/hackabiel.github.io/main/hackabiel-logo-long.png)
+
 
 
 <style>
@@ -14,7 +15,7 @@ body {
     background-size: 200% 200%;
     animation: subtle-gradient 12s ease infinite;
     color: #000000; 
-    font-family: 'Lato', sans-serif;  
+    font-family: 'Nova Mono', monospace; 
     text-align: left;
     padding: 20px;
     margin: 0;
@@ -24,7 +25,7 @@ body {
 a {
     color: #FF0000; 
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Bebas Neue', sans-serif; 
     font-weight: 600; 
 }
 
@@ -35,14 +36,14 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
     color: #FF0000;
     margin-bottom: 10px;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Bebas Neue', sans-serif; 
     font-weight: 600; 
 }
 
 label {
     display: block;
     margin-top: 15px;
-    font-family: 'Lato', sans-serif; 
+    font-family: 'Nova Mono', monospace; 
     font-weight: bold;
     color: #000000;
 }
@@ -51,7 +52,7 @@ input, textarea {
     width: 90%;
     padding: 10px;
     margin: 10px 0;
-    font-family: 'Lato', sans-serif; 
+    font-family: 'Nova Mono', monospace; 
     background-color: #F0F0F0; 
     color: #000000;
     border: 1px solid #FF0000;
@@ -61,7 +62,7 @@ input, textarea {
 button {
     background-color: #FF0000;
     color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Bebas Neue', sans-serif; 
     font-weight: 600; 
     border: none;
     padding: 10px 20px;
@@ -86,14 +87,14 @@ blockquote {
     padding-left: 10px;
     color: #000000;
     font-style: italic;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nova Mono', monospace; 
 }
 
 footer {
     margin-top: 50px;
     font-size: 0.8em;
     color: #000000;
-    font-family: 'Lato', sans-serif; 
+    font-family: 'Nova Mono', monospace; 
 }
 
 @keyframes subtle-gradient {
@@ -127,7 +128,7 @@ footer {
 }
 </style>
 
-# "Hack the future in the heart of Switzerland"
+# Hack the future in the heart of Switzerland
 
 
 **A community-run group of indie entrepreneurs, makers, coders, designers, and hardware hackers who build their own independent services, apps and startups, meeting up every Friday for weekly co-working (and demos) in Biel/Bienne.**
