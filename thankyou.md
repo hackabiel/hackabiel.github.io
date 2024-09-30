@@ -1,14 +1,20 @@
----
-layout: null
+ayout: null
 ---
 
 <link rel="icon" href="https://raw.githubusercontent.com/hackabiel/hackabiel.github.io/main/favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Work+Sans:wght@400&display=swap" rel="stylesheet">
+
+![HackaBiel Logo](https://raw.githubusercontent.com/hackabiel/hackabiel.github.io/main/hackabiel-logo-long.png)
+
+
 
 <style>
 body {
-    background-color: #FFFFFF; 
+    background: linear-gradient(90deg, #FFFFFF, #FFCCCC 50%, #FFFFFF); 
+    background-size: 200% 200%;
+    animation: subtle-gradient 12s ease infinite;
     color: #000000; 
-    font-family: Arial, sans-serif; 
+    font-family: 'Work Sans', sans-serif;  /* Fließtext mit Work Sans */
     text-align: left;
     padding: 20px;
     margin: 0;
@@ -18,7 +24,8 @@ body {
 a {
     color: #FF0000; 
     text-decoration: none;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; /* Links in Montserrat */
+    font-weight: 600; /* Fett für Links */
 }
 
 a:hover {
@@ -28,13 +35,14 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
     color: #FF0000;
     margin-bottom: 10px;
-    font-family: 'Roboto Slab', serif;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; /* Überschriften in Montserrat */
+    font-weight: 600; /* SemiBold */
 }
 
 label {
     display: block;
     margin-top: 15px;
+    font-family: 'Work Sans', sans-serif; /* Formularbeschriftungen in Work Sans */
     font-weight: bold;
     color: #000000;
 }
@@ -43,7 +51,7 @@ input, textarea {
     width: 90%;
     padding: 10px;
     margin: 10px 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Work Sans', sans-serif; /* Eingabefelder in Work Sans */
     background-color: #F0F0F0; 
     color: #000000;
     border: 1px solid #FF0000;
@@ -53,11 +61,11 @@ input, textarea {
 button {
     background-color: #FF0000;
     color: #FFFFFF;
-    font-weight: bold; 
+    font-family: 'Montserrat', sans-serif; /* Buttons in Montserrat */
+    font-weight: 600; /* Fett für Buttons */
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    font-family: Arial, sans-serif;
     margin-top: 20px;
     border-radius: 4px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -78,23 +86,26 @@ blockquote {
     padding-left: 10px;
     color: #000000;
     font-style: italic;
-    font-family: 'Merriweather', serif;
+    font-family: 'Work Sans', sans-serif; /* Zitate in Work Sans */
 }
 
 footer {
     margin-top: 50px;
     font-size: 0.8em;
     color: #000000;
+    font-family: 'Work Sans', sans-serif; /* Fußzeile in Work Sans */
 }
 
-
-.parallax {
-    background: url('https://raw.githubusercontent.com/hackabiel/hackabiel.github.io/main/hackabiel-logo-long.png') no-repeat center;
-    background-size: contain;
-    height: 50px; 
-    width: 50%;
-    position: relative;
-    background-attachment: fixed;
+@keyframes subtle-gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -105,8 +116,17 @@ footer {
     input, textarea {
         width: 100%;
     }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%; 
+        max-height: 75%;
+    }
 }
 </style>
+
 
 
 
