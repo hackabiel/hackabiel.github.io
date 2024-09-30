@@ -134,7 +134,7 @@ footer {
 
 **A community-run group of indie entrepreneurs, makers, coders, designers, and hardware hackers who build their own independent services, apps and startups, meeting up every Friday for weekly co-working (and demos) in Biel/Bienne.**
 
-The group is part of the [Hackagu Network](https://hackagu.com) with a growing community worldwide.
+The group is part of the [Hacka* Network](https://hacka.network) with a growing community worldwide.
 
 If you're working on your own projects, come and join us every Thursday from **9:15 am** at [P15 Coworking-Space](https://www.p15.space) in **Biel/Bienne**. Price for a day 22 CHF incl. Coffee. We speak 🇩🇪, 🇫🇷, 𝗘𝗡.  
 
